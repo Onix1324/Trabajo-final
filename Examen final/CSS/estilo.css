@@ -1,0 +1,88 @@
+/*titulos*/
+.Titulo{
+    text-align: center;
+    color: aqua;
+}
+
+.fondoTitulo{
+    background-color: rgb(253, 43, 43);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -21px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/*titulos final*/
+
+/*fondos*/
+.Fondo{
+    background-color: tomato;
+}
+/*final findos*/
+
+.derechos{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.L1{
+    border: 1px solid #f28a4e;
+    background-color: #f28a4e;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.L1:hover{
+    background: white;
+    color: #f28a4e;
+}
+
+.L2{
+    border: 1px solid #f28a4e;
+    background-color: #f28a4e;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.L2:hover{
+    background: white;
+    color: #f28a4e;
+}
+
+.L3{
+    border: 1px solid #f28a4e;
+    background-color: #f28a4e;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.L3:hover{
+    background: white;
+    color: #f28a4e;
+}
+
+.L4{
+    border: 1px solid #f28a4e;
+    background-color: #f28a4e;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.L4:hover{
+    background: white;
+    color: #f28a4e;
+}
