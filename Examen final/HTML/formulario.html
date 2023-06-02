@@ -7,6 +7,7 @@
     <title>Turnos</title>
     <link rel="stylesheet" href="../CSS/estilo.css">
     <link rel="stylesheet" href="../CSS/formulario.css">
+    <script src="../js/formulario.js"></script>
 </head>
 <body class="Fondo">
     <div class="fondoTitulo">
@@ -19,13 +20,14 @@
         <a href="nosotros.html" class="links L3">NOSOTROS</a>
         <a href="formulario.html" class="links L4">CONTACTANOS</a>
     </div>
+
     <div class="formulario">
-        <form action="" class="f2">
+        <form action="" class="f2" id="formulario">
             <p>Nombre:</p>
                 <input type="text" class="field"><br>
 
-            <p>Correo electronico:</p>
-                <input type="text" class="field"><br>
+            <p>Numero de telefono:</p>
+                <input type="tel" class="field"><br>
 
             <p>Asunto:</p>
                 <input type="text" class="field"><br>
@@ -34,7 +36,7 @@
                 <textarea class="field ddd"></textarea><br>
 
             <p>
-            <input type="button" class="boton" value="Enviar Datos">
+            <input type="button" class="boton" value="Enviar Datos" onclick="anotado()">
             </p>
         </form>
     </div>    
