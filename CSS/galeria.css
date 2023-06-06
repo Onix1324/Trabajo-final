@@ -1,0 +1,99 @@
+
+/*FOTOS DE LA GALERIA*/
+
+.Grid{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    padding: 10px;
+}
+
+.column{
+    flex: 100%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.fotos{
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+    border: solid 1px;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.c1{
+    background-image: url("../FOTOS/Cortes/laRoca.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.c2{
+    background-image: url("../FOTOS/Cortes/ironMan.jpg");
+    background-size: 130%;
+    background-position: center;
+}
+
+.c3{
+    background-image: url("../FOTOS/Cortes/kanye.jpg");
+    background-size: 150%;
+    background-position: center;
+}
+
+.c4{
+    background-image: url("../FOTOS/Cortes/lil.jpg");
+    background-size: 100%;
+    background-position: top;
+}
+
+.c5{
+    background-image: url("../FOTOS/Cortes/messi.webp");
+    background-size: 100%;
+    background-position: 50% 15%;
+}
+
+.c6{
+    background-image: url("../FOTOS/Cortes/stock1.webp");
+    background-size: 110%;
+    background-position: center;
+}
+
+.c7{
+    background-image: url("../FOTOS/Cortes/mirta.png");
+    background-size: 100%;
+    background-position: top;
+}
+
+.c8{
+    background-image: url("../FOTOS/Cortes/stock2.jpg");
+    background-size: 110%;
+    background-position: center;
+}
+
+.c9{
+    background-image: url("../FOTOS/Cortes/pedro.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.c10{
+    background-image: url("../FOTOS/Cortes/coscu.webp");
+    background-size: 100%;
+    background-position: center;
+}
+
+.c11{
+    background-image: url("../FOTOS/Cortes/michael.jpg");
+    background-size: 100%;
+    background-position: top;
+}
+
+.c12{
+    background-image: url("../FOTOS/Cortes/nicolas.webp");
+    background-size: 80%;
+    background-position: 50% 10%;
+}
+
+ 
+/*FIN DE FOTOS DE LA GALERIA*/

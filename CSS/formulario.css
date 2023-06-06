@@ -1,0 +1,28 @@
+.f2{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(201, 67, 43);
+    color: rgb(22, 19, 19);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.field{
+    border: solid 1px #999;
+    padding: 7px;
+}
+
+.ddd{
+    resize: vertical;
+}
+
+.boton{
+    width: 150px;
+    text-align: center;
+}
+
+.formulario{
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+}

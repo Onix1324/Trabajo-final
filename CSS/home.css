@@ -1,0 +1,19 @@
+.bienvenida{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.derechaIzquierda{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: auto;
+}
+
+.derecha{
+    text-align: center;
+    background-color: rgb(245, 135, 115);
+}
+
+.izquierda{
+    margin-left: 1rem;
+}
